@@ -325,10 +325,6 @@ footer a { color:var(--accent2); }
 }
 """
 
-
-# ----------------------------------------------------------------------
-# Logo DPHIR SAS (PNG embebido en base64) + lema corporativo
-# ----------------------------------------------------------------------
 LOGO_PNG_B64 = (
     "iVBORw0KGgoAAAANSUhEUgAAAHsAAABGCAYAAADsI+sMAAAYoXpUWHRSYXcgcHJvZmlsZSB0eXBl"
     "IGV4aWYAAHjarZrpkeO4loX/w4oxgdgBcy62iPFgzJ/vgMqu/cXrjs6sSkmURAJ3OQtAt//vf4/7"
@@ -2543,7 +2539,7 @@ generated=self.generated)
 
 
 # ===========================================================================
-# 5. EXTRACCIÓN DEL ZIP
+#  EXTRACCIÓN DEL ZIP
 # ===========================================================================
 
 def extract_zip(zip_path: Path, dest_dir: Path) -> dict:
