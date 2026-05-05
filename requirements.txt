@@ -1,0 +1,19 @@
+# =============================================================================
+# Instagram Forensic Report — Dependencias
+# =============================================================================
+#
+# El script principal funciona ÚNICAMENTE con la librería estándar de Python.
+# Las dependencias listadas a continuación son OPCIONALES, pero su instalación
+# habilita características adicionales del reporte.
+#
+# Instalación (recomendado dentro de un entorno virtual activo):
+#   pip install -r requirements.txt
+#
+# Para más información sobre el uso de venv, consulta el README.md.
+# =============================================================================
+
+# Pillow — extracción de metadatos EXIF de imágenes JPEG/PNG.
+# Sin esta librería el script funciona y muestra los EXIF disponibles en
+# los JSON del takeout, pero no extrae EXIF adicional directamente de los
+# archivos de imagen.
+Pillow>=10.0.0
